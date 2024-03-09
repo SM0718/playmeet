@@ -21,6 +21,23 @@ function Home() {
           <button onClick={(e) => e.preventDefault()} type='submit' className='text-2xl font-black'>&#x2192;</button>
         </div>
       </form>
+      <div className='flex'> 
+        <div className='w-1/4'>
+          <img src="./running.jpg" alt="" />
+        </div>
+        
+        <div className='w-1/4'>
+          <img src="./yoga.jpg" alt="" />
+          <img src="./football.jpg" alt="" />
+        </div>
+        <div className='w-1/4'>
+          <img src="./basketball.jpg" alt="" />
+        </div>
+        <div className='w-1/4'>
+          <img src="./cycleing.jpg" alt="" />
+          <img src="./swiming.jpg" alt="" />
+        </div>
+      </div>
 
     </div>
   )
