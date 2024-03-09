@@ -2,7 +2,8 @@ import React from 'react'
 
 function Home() {
   return (
-    <div className='relative'>
+    <div >
+      <div className='relative'>
         <div className='w-5/6 h-[400px] mt-2 mx-auto bg-cover bg-center bg-no-repeat rounded-xl flex flex-col justify-center items-center relative' style={{backgroundImage: `url(./home-head-banner.jpg)`}}>
             <h1 className='text-black text-5xl font-bold'>Discover Sport Lovers Near You</h1>
             <p className='text-3xl pt-4 text-black font-black'>Our Advanced Features</p>
@@ -21,6 +22,8 @@ function Home() {
           <button onClick={(e) => e.preventDefault()} type='submit' className='text-2xl font-black'>&#x2192;</button>
         </div>
       </form>
+      </div>
+        
       <div className='flex'> 
         <div className='w-1/4'>
           <img src="./running.jpg" alt="" />
